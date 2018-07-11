@@ -9,7 +9,7 @@
             用户名或密码不符。请再试一次。
         </p>
     {% else %}
-        <p>填写下面的表单登录</p>
+<p>填写下面的表单登录。如果还没有账户，请再这里<a href="{% url 'register' %}">注册</a>。</p>
     {% endif %}
     <div class="login-form">
         <form action="{% url 'login' %}" method="post">
