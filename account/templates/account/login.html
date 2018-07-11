@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}登录{% endblock %}
+
+{% block content %}
+    <h1>登录</h1>
+    <p>请填写下面的表单登录</p>
+    <form action="." method="post">
+        {% csrf_token %}
+        {% for field in form %}
+            {{ field.errors }}
+            {{ field.label_tag }} {{ field }}
+            {% if field.help_text %}
+                <p class="help">{{ field.help_text|safe }}</p>
+                {% endif %}
+        <p><input type="submit" value="登录"></p>
+    </form>
+{% endblock %}
