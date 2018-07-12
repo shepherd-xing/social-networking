@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}控制面板{% endblock %}
+
+{% block content %}
+    <h1>个人中心</h1>
+    {% with total_images_created=request.user.images_created.count %}
+        <p>欢迎来到个人中心。
+            You have bookmarked {{ total_images_created }} image{{ total_images_created|pluralize }}.
+        </p>
+    {% endwith %}
+    <p>
+        Drag the following button to your bookmarks toolbar to bookmark images from other webistes
+        → <a href="javascript:{% include 'bookmarklet_launcher.js' %}" class="button">Bookmark it</a>
+    </p>
+    <p>
+        您可以<a href="{% url 'edit' %}">编辑个人资料</a>
+        或者<a href="{% url 'password_change' %}">修改密码</a>。</p>
+{% endblock %}
+
+
+
+
+
+
+
+
+
