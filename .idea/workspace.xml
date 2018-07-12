@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b734857-9f1d-4816-a0f2-09b39b8b77ad" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/account/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/account/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/account/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmarks/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmarks/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +16,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bookmarks/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2951">
-              <caret line="127" column="43" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="43" />
+            <state relative-caret-position="262">
+              <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
               <folding>
                 <element signature="e#0#309#1" />
               </folding>
@@ -26,15 +25,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/account/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-411">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state relative-caret-position="314">
+              <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
               <folding>
+                <element signature="e#0#35#0" expanded="true" />
                 <element signature="e#291#895#0" />
                 <element signature="e#1043#1528#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authentication.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/account/authentication.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-73">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -90,8 +99,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -113,7 +122,6 @@
         <option value="$PROJECT_DIR$/account/templates/account/register.html" />
         <option value="$PROJECT_DIR$/account/templates/account/register_done.html" />
         <option value="$PROJECT_DIR$/account/templates/registration/login.html" />
-        <option value="$PROJECT_DIR$/bookmarks/settings.py" />
         <option value="$PROJECT_DIR$/bookmarks/urls.py" />
         <option value="$PROJECT_DIR$/account/admin.py" />
         <option value="$PROJECT_DIR$/account/forms.py" />
@@ -129,12 +137,14 @@
         <option value="C:/test/ajax/register/templates/register.html" />
         <option value="$PROJECT_DIR$/account/templates/base.html" />
         <option value="$PROJECT_DIR$/account/views.py" />
+        <option value="$PROJECT_DIR$/bookmarks/settings.py" />
+        <option value="$PROJECT_DIR$/account/authentication.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="52" />
-    <option name="y" value="701" />
+    <option name="x" value="64" />
+    <option name="y" value="526" />
     <option name="width" value="2673" />
     <option name="height" value="1141" />
   </component>
@@ -198,7 +208,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="401" width="1527" height="652" extended-state="0" />
+    <frame x="37" y="301" width="1527" height="652" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24983476" />
@@ -250,6 +260,7 @@
         <state relative-caret-position="1131">
           <caret line="43" column="74" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
           <folding>
+            <element signature="e#0#35#0" expanded="true" />
             <element signature="e#291#895#0" />
             <element signature="e#1043#1528#0" />
           </folding>
@@ -486,16 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bookmarks/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2951">
-          <caret line="127" column="43" selection-start-line="127" selection-start-column="43" selection-end-line="127" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#309#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/account/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -508,12 +509,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/account/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-411">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        <state relative-caret-position="314">
+          <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
           <folding>
+            <element signature="e#0#35#0" expanded="true" />
             <element signature="e#291#895#0" />
             <element signature="e#1043#1528#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bookmarks/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#309#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/authentication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-73">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
