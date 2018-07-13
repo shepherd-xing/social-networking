@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'sorl.thumbnail',
     'images',
     'account',
     'django.contrib.admin',
