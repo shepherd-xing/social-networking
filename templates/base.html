@@ -39,7 +39,7 @@
                     <a href="{% url 'images:list' %}">图片</a>
                 </li>
                 <li {% if section == "people" %} class="selected" {% endif %}>
-                    <a href="#">人</a>
+                    <a href="{% url 'user_list' %}">人</a>
                 </li>
             </ul>
         {% endif %}
