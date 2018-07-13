@@ -27,13 +27,13 @@
           {{ image.description|linebreaks }}
       </div>
       <div class="image-likes">
-          {% for user in image.users_lik.all %}
+          {% for user in image.users_like.all %}
             <div>
                 <img src="{{ user.profile.photo.url }}">
                 <p>{{ user.first_name }}</p>
             </div>
           {% empty %}
-            Nobody likes this image yet.
+            还没有人喜欢这张图片。
           {% endfor %}
       </div>
     {% endwith %}
